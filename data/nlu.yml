@@ -1,0 +1,271 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - Xin chào
+    - Chào bạn
+    - Hello
+    - Hi
+    - Chào
+    - Chào anh
+    - Chào em
+    - Chào bạn nhé
+    - Xin chào bạn
+    - Hi bạn
+    - Hí hí
+    - Hello there
+    - Hey
+    - Hey bạn
+
+- intent: ask_sod
+  examples: |
+    - Tôi muốn hỏi về SOD
+    - Cho tôi thông tin SOD
+    - Hỏi đáp SOD
+
+- intent: ask_ktsp
+  examples: |
+    - Tôi muốn hỏi về KTSP
+    - Cho tôi thông tin KTSP
+    - Hỏi đáp KTSP
+
+- intent: back_to_menu
+  examples: |
+    - quay lại menu
+    - trở lại lựa chọn
+    - menu
+
+#SOD
+- intent: ask_what_is_sod
+  examples: |
+    - SOD là gì?
+    - Định nghĩa SOD?
+    - SOD viết tắt là gì?
+
+- intent: ask_why_foundation_is_important
+  examples: |
+    - Vì sao yếu tố nền tảng quan trọng?
+    - YTNT quan trọng như thế nào?
+
+- intent: ask_requirements_for_display_foundation
+  examples: |
+    - Các yêu cầu về nền tảng trưng bày là gì?
+    - Nền tảng trưng bày cần đáp ứng những tiêu chí nào?
+    - Yêu cầu kỹ thuật cho nền tảng trưng bày là gì?
+    - Điều kiện cần có của nền tảng trưng bày là gì?
+    - Nền tảng trưng bày cần đảm bảo những yếu tố nào?
+    - Tiêu chuẩn cho nền tảng trưng bày là gì?
+    - Những yêu cầu cơ bản của nền tảng trưng bày là gì?
+    - Nền tảng trưng bày cần những gì để hoạt động hiệu quả?
+    - Có những yêu cầu nào đối với nền tảng trưng bày?
+    - Nền tảng trưng bày cần tuân thủ những quy định nào?
+    - Những điều kiện cần thiết cho nền tảng trưng bày là gì?
+    - Nền tảng trưng bày cần đạt những tiêu chí nào?
+    - Yêu cầu về thiết kế nền tảng trưng bày là gì?
+    - Nền tảng trưng bày cần đáp ứng những yêu cầu gì?
+    - Các yếu tố quan trọng của nền tảng trưng bày là gì?
+
+- intent: ask_formula_sod_percentage
+  examples: |
+    - Công thức tính % SOD là gì?
+    - Cách tính phần trăm SOD như thế nào?
+    - Làm sao để tính % SOD?
+    - Công thức tính phần trăm SOD là gì?
+    - Tính % SOD theo công thức nào?
+    - % SOD được tính như thế nào?
+    - Hướng dẫn cách tính % SOD?
+    - Cách xác định phần trăm SOD?
+    - Tính toán % SOD ra sao?
+    - Cách tính tỷ lệ phần trăm SOD?
+    - Công thức để tính % SOD là gì?
+    - Làm thế nào để xác định % SOD?
+    - Phương pháp tính phần trăm SOD?
+    - % SOD được xác định bằng cách nào?
+    - Cách tính toán % SOD trong mẫu thử?
+    - Công thức chuẩn để tính % SOD là gì?
+
+- intent: ask_off_shelf_display_items
+  examples: |
+    - Các hạng mục trưng bày ngoài quầy kệ gồm những gì?
+    - Trưng bày ngoài quầy kệ có những gì?
+    - Có những vật phẩm nào được trưng bày ngoài quầy kệ?
+    - Những gì thuộc trưng bày ngoài quầy kệ?
+    - Các loại trưng bày off-shelf là gì?
+    - Trưng bày off-shelf bao gồm những gì?
+    - Có những hạng mục trưng bày nào ngoài kệ?
+    - Các vật phẩm ngoài quầy kệ là gì?
+    - Các hạng mục POSM trưng bày ngoài kệ?
+    - Những vật dụng trưng bày không nằm trên quầy là gì?
+
+- intent: ask_sod_calculation_by_brand_or_sku
+  examples: |
+    - Tính % SOD theo brand hay SKU/size/giá?
+    - % SOD được tính dựa trên thương hiệu hay từng sản phẩm cụ thể?
+    - Cách tính % SOD là theo nhãn hiệu hay theo SKU?
+    - SOD được đo theo từng size hay theo toàn bộ brand?
+    - Có tính SOD theo kích cỡ sản phẩm không?
+    - Khi tính SOD thì dựa vào brand hay SKU?
+    - SOD tính theo giá sản phẩm hay chủng loại?
+    - Tính SOD nên theo SKU hay size?
+    - Đơn vị tính SOD là theo sản phẩm riêng hay thương hiệu tổng?
+    - SOD dùng brand level hay SKU level để tính?
+
+- intent: ask_example_sod_calculation
+  examples: |
+    - Cách tính % SOD thực tế (ví dụ)?
+    - Ví dụ về cách tính % SOD?
+    - Hướng dẫn tính % SOD bằng ví dụ cụ thể?
+    - Có thể cho ví dụ cách tính SOD không?
+    - Tính % SOD như thế nào trong thực tế?
+    - Demo cách tính % SOD?
+    - Cách đo lường % SOD bằng ví dụ thực tế?
+    - Ví dụ minh hoạ cách tính SOD?
+    - Mô tả cách tính % SOD với số liệu cụ thể?
+    - Cách tính SOD thực tế ở cửa hàng là sao?
+
+- intent: ask_sod_counting_osd
+  examples: |
+    - Cách đếm SOD cho OSD (Ụ khuyến mãi)?
+    - Đếm % SOD của Ụ khuyến mãi như thế nào?
+    - SOD cho OSD được tính ra sao?
+    - OSD có được tính vào % SOD không?
+    - Tính SOD cho trưng bày ngoài quầy (OSD) thế nào?
+    - Ụ khuyến mãi được tính SOD như thế nào?
+    - Có tính SOD cho các ụ trưng bày không?
+    - Cách đo SOD cho ụ ngoài kệ?
+    - Tính % SOD cho OSD thì làm thế nào?
+    - Trưng bày OSD tính SOD theo diện tích hay mặt hàng?
+
+- intent: ask_sod_counting_ge
+  examples: |
+    - Cách đếm SOD cho GE (Đầu kệ)?
+    - Đếm SOD trong khu vực GE thì làm sao?
+    - GE có tính vào SOD không?
+    - Đầu kệ được tính SOD ra sao?
+    - Đếm SOD cho đầu gondola thế nào?
+    - GE (gondola end) được đo SOD như thế nào?
+    - Có tính SOD cho đầu kệ không?
+    - Hướng dẫn cách tính % SOD khu vực GE
+    - Đầu kệ tính SOD dựa theo mặt quay hay diện tích?
+
+# KTSP
+- intent: ask_ktsp_segments
+  examples: |
+    - Các phân khúc sản phẩm giặt của P&G là gì?
+    - P&G có những dòng sản phẩm giặt nào?
+    - Phân khúc giặt của P&G gồm những gì?
+
+- intent: ask_ktsp_segments_with_image
+  examples: |
+    - Các phân khúc sản phẩm giặt của P&G là gì? Cho hình ảnh minh hoạ
+    - Cho mình biết các phân khúc giặt của P&G?
+    - P&G có những dòng sản phẩm giặt nào?
+    - P&G chia sản phẩm giặt thành những phân khúc nào?
+    - Danh mục sản phẩm giặt của P&G gồm những gì?
+    - Những loại sản phẩm giặt P&G đang kinh doanh là gì?
+    - P&G có bao nhiêu dòng sản phẩm giặt?
+    - Phân khúc sản phẩm giặt của P&G gồm những dòng nào?
+    - P&G có sản phẩm giặt nào dành cho cao cấp, phổ thông không?
+    - Cho hình ảnh minh hoạ các dòng giặt của P&G
+    - Các dòng sản phẩm giặt của P&G? Có ảnh minh hoạ không?
+    - Sản phẩm giặt của P&G phân loại như thế nào? Có hình không?
+
+- intent: ask_ktsp_competitors
+  examples: |
+    - Đối thủ chính của từng phân khúc sản phẩm giặt là ai?
+    - Ai là đối thủ của P&G ở các phân khúc giặt?
+    - Lĩnh vực giặt của P&G cạnh tranh với thương hiệu nào?
+
+- intent: ask_suitable_customer_for_ariel
+  examples: |
+    - Khách hàng nào phù hợp với Ariel?
+    - Ariel phù hợp với khách hàng nào?
+    - Đối tượng khách hàng nào nên dùng Ariel?
+    - Ai nên sử dụng Ariel?
+    - Ariel dành cho ai?
+    - Sản phẩm Ariel phù hợp với ai?
+    - Nhóm khách hàng nào phù hợp với Ariel?
+    - Ariel nên được dùng bởi những ai?
+    - Những ai nên chọn Ariel?
+    - Ariel dành cho đối tượng nào?
+    - Đối tượng nào là mục tiêu của Ariel?
+    - Khách hàng mục tiêu của Ariel là ai?
+    - Ariel được thiết kế cho ai?
+    - Người tiêu dùng nào nên mua Ariel?
+
+- intent: ask_slogan_of_ariel
+  examples: |
+    - Slogan của Ariel là gì?
+    - Khẩu hiệu của Ariel là gì?
+    - Ariel có slogan gì?
+    - Slogan hiện tại của Ariel là gì?
+    - Câu khẩu hiệu của thương hiệu Ariel là gì?
+    - Thông điệp quảng cáo của Ariel là gì?
+    - Ariel dùng khẩu hiệu nào để quảng bá?
+    - Ariel truyền tải thông điệp gì?
+    - Slogan chính thức của Ariel là gì?
+    - Ariel có thông điệp gì không?
+
+- intent: ask_highlight_technology_of_ariel
+  examples: |
+    - Ariel có công nghệ gì nổi bật?
+    - Ariel ứng dụng công nghệ gì?
+    - Những công nghệ nào được sử dụng trong Ariel?
+    - Ariel có điểm gì công nghệ đặc biệt?
+    - Công nghệ giặt nào có trong Ariel?
+    - Ariel dùng công nghệ gì để giặt sạch?
+    - Ariel có gì khác biệt về công nghệ?
+    - Tính năng công nghệ nổi bật của Ariel là gì?
+    - Ariel tích hợp công nghệ gì?
+    - Ariel có công nghệ giặt sạch nào?
+
+- intent: ask_ariel_fragrances
+  examples: |
+    - Ariel có những mùi hương nào?
+    - Ariel có bao nhiêu loại mùi?
+    - Những loại hương của Ariel là gì?
+    - Các mùi thơm của Ariel gồm những gì?
+    - Ariel có những hương nào?
+    - Mùi hương đặc trưng của Ariel là gì?
+    - Có bao nhiêu mùi Ariel đang bán?
+    - Ariel thơm mùi gì?
+    - Các phiên bản mùi hương của Ariel?
+    - Ariel có hương nào thơm nhất?
+    - Những loại hương của Ariel là gì?
+    - Các mùi thơm của Ariel gồm những gì?
+    - Ariel có những hương nào?
+    - Mùi hương đặc trưng của Ariel là gì?
+    - Có bao nhiêu mùi Ariel đang bán?
+    - Ariel thơm mùi gì?
+    - Các phiên bản mùi hương của Ariel?
+    - Ariel có hương nào thơm nhất?
+
+- intent: ask_ariel_characteristics
+  examples: |
+    -  Đặc điểm của Ariel là gì?
+    - Ariel có những đặc trưng gì?
+    - Những điểm nổi bật của Ariel là gì?
+    - Ariel khác gì so với các sản phẩm giặt khác?
+    - Ariel có gì đặc biệt?
+    - Tính năng nổi bật của Ariel là gì?
+    - Ưu điểm của Ariel là gì?
+    - Ariel có những lợi ích gì?
+    - Ariel có điểm gì vượt trội?
+    - Ariel có đặc điểm nhận biết nào?
+
+- intent: ask_ariel_key_benefits
+  examples: |
+    -  Ariel có lợi ích gì nổi bật?
+    - Lợi ích khi dùng Ariel là gì?
+    - Dùng Ariel có ưu điểm gì?
+    - Ariel mang lại lợi ích gì?
+    - Những điểm có lợi khi dùng Ariel?
+    - Ariel giúp ích gì cho việc giặt giũ?
+    - Vì sao nên chọn Ariel?
+    - Ariel có gì hay?
+    - Ưu điểm của sản phẩm Ariel là gì?
+    - Ariel mang lại điều gì khác biệt?
+
+
+

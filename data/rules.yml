@@ -1,0 +1,116 @@
+version: "3.1"
+
+rules:
+
+- rule: Show menu on greet
+  steps:
+  - intent: greet
+  - action: utter_menu
+
+- rule: Quay lại menu
+  steps:
+    - intent: back_to_menu
+    - action: utter_back_to_menu
+    - action: utter_menu
+
+- rule: Handle SOD selection
+  steps:
+  - intent: ask_sod
+  - action: utter_sod
+
+- rule: Handle KTSP selection
+  steps:
+  - intent: ask_ktsp
+  - action: utter_ktsp
+
+# SOD
+- rule: Answer the question What is SOD?
+  steps:
+    - intent: ask_what_is_sod
+    - action: action_finetune_answer
+
+- rule: Answer the question Why foundation is important
+  steps:
+    - intent: ask_why_foundation_is_important
+    - action: action_finetune_answer
+
+- rule: Answer the question requirements for display foundation
+  steps:
+    - intent: ask_requirements_for_display_foundation
+    - action: action_finetune_answer
+
+- rule: Answer the question formula sod percentage
+  steps:
+    - intent: ask_formula_sod_percentage
+    - action: action_finetune_answer
+
+- rule: Answer the question off shelf display items
+  steps:
+    - intent: ask_off_shelf_display_items
+    - action: action_finetune_answer
+
+- rule: Answer the question sod calculation by brand or sku
+  steps:
+    - intent: ask_sod_calculation_by_brand_or_sku
+    - action: action_finetune_answer
+
+- rule: Answer the question example sod calculation
+  steps:
+    - intent: ask_example_sod_calculation
+    - action: action_finetune_answer
+
+- rule: Answer the question sod counting osd
+  steps:
+    - intent: ask_sod_counting_osd
+    - action: action_finetune_answer
+
+- rule: Answer the question sod counting ge
+  steps:
+    - intent: ask_sod_counting_ge
+    - action: action_finetune_answer
+
+# KTSP
+- rule: Respond to segments question
+  steps:
+  - intent: ask_ktsp_segments
+  - action: action_finetune_answer
+
+- rule: Respond to segments question and provide image
+  steps:
+  - intent: ask_ktsp_segments_with_image
+  - action: action_finetune_answer
+
+- rule: Respond to competitors question
+  steps:
+  - intent: ask_ktsp_competitors
+  - action: action_finetune_answer
+
+- rule: Answer the question suitable customer for ariel
+  steps:
+  - intent: ask_suitable_customer_for_ariel
+  - action: action_finetune_answer
+
+- rule: Answer the question slogan of ariel
+  steps:
+  - intent: ask_slogan_of_ariel
+  - action: action_finetune_answer
+
+- rule: Answer the question highlight technology of ariel
+  steps:
+  - intent: ask_highlight_technology_of_ariel
+  - action: action_finetune_answer
+
+- rule: Answer the question ariel fragrances
+  steps:
+  - intent: ask_ariel_fragrances
+  - action: action_finetune_answer
+
+- rule: Answer the question ariel characteristics
+  steps:
+  - intent: ask_ariel_characteristics
+  - action: action_finetune_answer
+
+- rule: Answer the question ariel key benefits
+  steps:
+  - intent: ask_ariel_key_benefits
+  - action: action_finetune_answer

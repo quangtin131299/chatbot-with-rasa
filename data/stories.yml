@@ -1,0 +1,113 @@
+version: "3.1"
+
+stories:
+
+- story: user selects SOD menu
+  steps:
+  - intent: greet
+  - action: utter_menu
+  - intent: ask_sod
+  - action: utter_sod
+
+- story: user selects KTSP menu
+  steps:
+  - intent: greet
+  - action: utter_menu
+  - intent: ask_ktsp
+  - action: utter_ktsp
+
+#SOD
+- story: SOD – what is sod?
+  steps:
+  - intent: ask_sod
+  - action: utter_sod
+  - intent: ask_what_is_sod
+  - action: action_finetune_answer
+
+- story: SOD – why foundation is important
+  steps:
+  - intent: ask_sod
+  - action: utter_sod
+  - intent: ask_why_foundation_is_important
+  - action: action_finetune_answer
+
+- story: SOD – requirements for display foundation
+  steps:
+  - intent: ask_sod
+  - action: utter_sod
+  - intent: ask_requirements_for_display_foundation
+  - action: action_finetune_answer
+
+- story: SOD – formula sod percentage
+  steps:
+  - intent: ask_sod
+  - action: utter_sod
+  - intent: ask_formula_sod_percentage
+  - action: action_finetune_answer
+
+
+
+#KTSP
+- story: KTSP – segments
+  steps:
+  - intent: ask_ktsp
+  - action: utter_ktsp
+  - intent: ask_ktsp_segments
+  - action: action_finetune_answer
+
+- story: KTSP – segments and provide image
+  steps:
+  - intent: ask_ktsp
+  - action: utter_ktsp
+  - intent: ask_ktsp_segments_with_image
+  - action: action_finetune_answer
+
+- story: KTSP – competitors
+  steps:
+  - intent: ask_ktsp
+  - action: utter_ktsp
+  - intent: ask_ktsp_competitors
+  - action: action_finetune_answer
+
+- story: KTSP – suitable customer for ariel
+  steps:
+  - intent: ask_ktsp
+  - action: utter_ktsp
+  - intent: ask_suitable_customer_for_ariel
+  - action: action_finetune_answer
+
+- story: KTSP – slogan of ariel
+  steps:
+  - intent: ask_ktsp
+  - action: utter_ktsp
+  - intent: ask_slogan_of_ariel
+  - action: action_finetune_answer
+
+- story: KTSP – highlight technology of ariel
+  steps:
+  - intent: ask_ktsp
+  - action: utter_ktsp
+  - intent: ask_highlight_technology_of_ariel
+  - action: action_finetune_answer
+
+- story: KTSP – ariel fragrances
+  steps:
+  - intent: ask_ktsp
+  - action: utter_ktsp
+  - intent: ask_ariel_fragrances
+  - action: action_finetune_answer
+
+- story: KTSP – ariel characteristics
+  steps:
+  - intent: ask_ktsp
+  - action: utter_ktsp
+  - intent: ask_ariel_characteristics
+  - action: action_finetune_answer
+
+- story: KTSP – ariel key benefits
+  steps:
+  - intent: ask_ktsp
+  - action: utter_ktsp
+  - intent: ask_ariel_key_benefits
+  - action: action_finetune_answer
+

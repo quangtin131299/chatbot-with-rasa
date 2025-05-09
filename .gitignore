@@ -1,0 +1,79 @@
+# Thư mục môi trường ảo
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Tệp biên dịch Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Tệp log và dữ liệu tạm thời
+*.log
+*.pot
+*.mo
+*.db
+*.sqlite3
+*.pyc
+*.pyo
+*.pyd
+*.swp
+*.swo
+*.bak
+*.tmp
+
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Báo cáo kiểm thử và coverage
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Thư mục models (trừ tệp .gitkeep để giữ thư mục)
+models/*
+!models/.gitkeep
+
+# Thư mục dữ liệu người dùng
+data/.DS_Store
+data/.ipynb_checkpoints
+
+# Thư mục tài liệu Sphinx
+docs/_build/
+
+# Thư mục của Jupyter Notebook
+.ipynb_checkpoints
+
+# Thư mục của VSCode
+.vscode/
+
+# Tệp cấu hình cá nhân
+.rasa/
+*.env
+*.secret
+credentials.yml

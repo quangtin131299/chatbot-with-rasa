@@ -1,0 +1,34 @@
+version: "3.1"
+
+intents:
+  - back_to_menu
+  - greet
+  #sod
+  - ask_sod
+  - ask_what_is_sod
+  - ask_why_foundation_is_important
+  - ask_requirements_for_display_foundation
+  - ask_formula_sod_percentage
+  - ask_off_shelf_display_items
+  - ask_sod_calculation_by_brand_or_sku
+  - ask_example_sod_calculation
+  - ask_sod_counting_osd
+  - ask_sod_counting_ge
+  #ktsp
+  - ask_ktsp
+  - ask_ktsp_segments
+  - ask_ktsp_segments_with_image
+  - ask_ktsp_competitors
+  - ask_suitable_customer_for_ariel
+  - ask_slogan_of_ariel
+  - ask_highlight_technology_of_ariel
+  - ask_ariel_fragrances
+  - ask_ariel_characteristics
+  - ask_ariel_key_benefits
+
+actions:
+  - action_finetune_answer
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

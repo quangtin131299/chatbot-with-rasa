@@ -1,0 +1,13 @@
+version: "3.1"
+
+responses:
+  utter_menu:
+    - text: "Chào bạn! Mình là trợ lý ảo của bạn. Hãy chọn một chủ đề bên dưới để mình có thể hỗ trợ tốt nhất nhé!"
+      buttons:
+        - title: "1. Hỏi đáp về SOD"
+          payload: "/ask_sod"
+        - title: "2. Hỏi đáp về KTSP"
+          payload: "/ask_ktsp"
+
+  utter_back_to_menu:
+    - text: "Quay lại menu chính..."

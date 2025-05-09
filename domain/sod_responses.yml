@@ -1,0 +1,33 @@
+version: "3.1"
+
+responses:
+    utter_sod:
+      - text: "Bạn đang ở mục hỏi đáp SOD. Hãy nhập câu hỏi của bạn về SOD."
+
+    utter_ask_what_is_sod:
+      - text: "SOD (Share Of Display) là chỉ số đo lường thị phần trưng bày ngoài quầy kệ, thể hiện mức độ hiện diện của nhãn hàng P&G so với đối thủ cùng ngành hàng tại các vị trí trưng bày ngoài quầy kệ chính."
+
+    utter_ask_why_foundation_is_important:
+      - text: "YTNT đảm bảo siêu thị tăng trưởng ổn định, bền vững và là thước đo quan trọng trong cuộc đua chiến thắng đối thủ tại từng siêu thị."
+
+    utter_ask_requirements_for_display_foundation:
+      - text: "ĐÚNG: Có phân phối đủ các P-SKU, đúng hạn, đúng planogram, đủ bảng giá/khuyến mãi. ĐỦ: Không hết hàng SKUs đã list, đủ phân bổ, đầy đủ hàng chiều ngang & sâu. ĐẸP: Artwork mới, POSM đẹp, trưng bày cạnh tranh, thu hút, luôn đầy đủ hàng."
+
+    utter_ask_formula_sod_percentage:
+      - text: "% SOD = (Tổng số mét/vị trí trưng bày của Nhãn hàng A) / (Tổng số mét/vị trí trưng bày của tất cả các nhãn hàng thuộc ngành hàng) x 100%"
+
+    utter_ask_off_shelf_display_items:
+      - text: "1. GE (Gondola End) – Đầu kệ/quầy 2. OSD – Ụ khuyến mãi/Đảo sản phẩm 3. COC – Kệ tại cashier 4. Hanger/Clipstrip – Dây treo 5. Pillar – Ốp cột 6. Standee/Sideburn/Podium 7. Sidekick 8. Dumpbin 9. Elément – Kệ khuyến mãi"
+
+    utter_ask_sod_calculation_by_brand_or_sku:
+      - text: "Chỉ tính theo brand, không tính theo SKU, size hoặc giá."
+
+    utter_ask_example_sod_calculation:
+      - text: "Nếu có các nhãn hàng với số mét trưng bày: Ariel: 2m, Downy: 1m, Tide: 1m, Omo: 2m, Comfort: 1m, Maxkleen: 1m. Tổng cộng: 8m. %SOD Ariel = 2/8 x 100% = 25%. Các nhãn khác tương tự."
+
+    utter_ask_sod_counting_osd:
+      - text: "Đếm 1 vị trí khi OSD đạt >= 0.5m (BigC, Lotte, AEON, Emart) hoặc >= 0.3m (CO.OP). Nếu có nhiều sản phẩm cùng brand, chỉ tính 1 vị trí cho brand đó."
+
+    utter_ask_sod_counting_ge:
+      - text: "Đếm 1 vị trí khi trưng bày >= 1/4 GE (full 1 tầng). Nếu có nhiều sản phẩm cùng brand (>2), chỉ tính 1 vị trí cho brand đó. Supermarket: chấp nhận 1/4 GE; Hypermarket: 1 GE tối đa 3 điểm."
+

@@ -1,0 +1,32 @@
+version: "3.1"
+
+responses:
+  utter_ktsp:
+    - text: "Bạn đang ở mục hỏi đáp KTSP. Hãy nhập câu hỏi của bạn về KTSP."
+
+  utter_ask_ktsp_segments:
+    - text: "Gồm bột giặt sạch cơ bản (Tide), bột giặt sạch sâu (Ariel BG), nước giặt sạch sâu (Ariel NG), nước giặt sạch thơm (Downy NG), nước giặt máy cửa trước (Ariel NG cửa trước)."
+
+  utter_ask_ktsp_segments_with_image:
+    - text: "Gồm bột giặt sạch cơ bản (Tide), bột giặt sạch sâu (Ariel BG), nước giặt sạch sâu (Ariel NG), nước giặt sạch thơm (Downy NG), nước giặt máy cửa trước (Ariel NG cửa trước)."
+
+  utter_ask_ktsp_competitors:
+    - text: "Bột giặt sạch cơ bản: Surf. Bột giặt sạch sâu: OMO, ABA. Nước giặt sạch sâu: OMO, Attack. Nước giặt sạch thơm: Comfort NG. Nước giặt máy cửa trước: OMO cửa trước."
+
+  utter_ask_suitable_customer_for_ariel:
+    - text: "Người muốn bột giặt cao cấp, giặt sạch, giữ bền quần áo."
+
+  utter_ask_slogan_of_ariel:
+    -  text: "Đánh bay vết bẩn trong 1 bước giặt với công thức không chất tẩy."
+
+  utter_ask_highlight_technology_of_ariel:
+    - text: "Nano enzyme không chất tẩy, antibac kháng khuẩn, D+ tỏa hương sea."
+
+  utter_ask_ariel_fragrances:
+    - text: "Kokoro, hoa hồng, lily, lài, táo rừng, lê, lan trắng, cúc La Mã."
+
+  utter_ask_ariel_characteristics:
+    - text: "Hạt bột mịn, không bám cặn, hòa tan nhanh gấp 5 lần bột giặt thường, tiết kiệm nước, không hại da tay, dùng cho giặt tay và máy cửa trên."
+
+  utter_ask_ariel_key_benefits:
+    - text: "Khử mùi ẩm mốc, giữ màu, trắng đột phá, phù hợp phơi trong nhà."
