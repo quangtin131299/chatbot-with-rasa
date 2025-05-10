@@ -1,3 +1,4 @@
+.idea/
 # Thư mục môi trường ảo
 .env
 .venv
@@ -77,3 +78,5 @@ docs/_build/
 *.env
 *.secret
 credentials.yml
+
+models/
