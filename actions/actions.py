@@ -24,7 +24,7 @@ class ActionFinetuneAnswer(Action):
             return []
 
         improved = self._rewrite_with_gemini(raw_answer)
-        # text = improved,
+        
         if intent in image_data:
             dispatcher.utter_message(text=improved)
 
@@ -54,9 +54,10 @@ class ActionFinetuneAnswer(Action):
                     "parts": [
                         {
                             "text": (
-                                "Hãy viết lại đoạn sau bằng tiếng Việt theo phong cách "
-                                "thân thiện, dễ hiểu, có cảm xúc, như một người hướng dẫn "
-                                f"tận tâm đang giúp người khác hiểu rõ vấn đề:\n\n{text}"
+                                "Vui lòng viết lại đoạn văn dưới đây sang tiếng Việt theo phong cách một trợ lý doanh "
+                                "nghiệp chuyên nghiệp, nghiêm túc và tận tâm. Văn phong cần rõ ràng, dễ hiểu, "
+                                "có sức thuyết phục và cảm xúc chân thành, đồng thời cam kết không thêm thắt thông "
+                                f"tin không có thực:\n\n{text}"
                             )
                         }
                     ]
