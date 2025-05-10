@@ -77,6 +77,5 @@ docs/_build/
 .rasa/
 *.env
 *.secret
-credentials.yml
 
 models/
