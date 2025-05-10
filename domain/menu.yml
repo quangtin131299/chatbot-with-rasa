@@ -11,3 +11,6 @@ responses:
 
   utter_back_to_menu:
     - text: "Quay lại menu chính..."
+
+  utter_default:
+    - text: "Xin lỗi, tôi chưa có câu trả lời cho câu hỏi này."

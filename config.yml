@@ -13,8 +13,12 @@ pipeline:
 - name: ResponseSelector
   epochs: 100
 - name: FallbackClassifier
-  threshold: 0.3
+  threshold: 0.7
 
 policies:
 - name: RulePolicy
+  core_fallback_threshold: 0.7
+  core_fallback_action_name: "action_default_fallback"
+  enable_fallback_prediction: true
+
 assistant_id: 20250505-191208-tan-proof

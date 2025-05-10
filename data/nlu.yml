@@ -57,6 +57,16 @@ nlu:
   examples: |
     - Vì sao yếu tố nền tảng quan trọng?
     - YTNT quan trọng như thế nào?
+    - Tại sao yếu tố nền tảng lại đóng vai trò quan trọng?
+    - Lý do nào khiến yếu tố nền tảng trở nên thiết yếu?
+    - Nguyên nhân yếu tố nền tảng được đánh giá cao là gì?
+    - Vì sao ta cần chú trọng đến yếu tố nền tảng?
+    - Yếu tố nền tảng quan trọng ở điểm nào và vì sao?
+    - Tầm quan trọng của yếu tố nền tảng nằm ở đâu?
+    - Vì sao không thể bỏ qua yếu tố nền tảng?
+    - Những lý do khiến yếu tố nền tảng không thể thiếu?
+    - Yếu tố nền tảng cần thiết như thế nào?
+    - Vì sao yếu tố nền tảng được xem là then chốt?
 
 - intent: ask_requirements_for_display_foundation
   examples: |
@@ -165,6 +175,14 @@ nlu:
     - Các phân khúc sản phẩm giặt của P&G là gì?
     - P&G có những dòng sản phẩm giặt nào?
     - Phân khúc giặt của P&G gồm những gì?
+    - P&G chia các nhóm sản phẩm giặt như thế nào?
+    - Những dòng sản phẩm giặt mà P&G đang kinh doanh gồm những gì?
+    - P&G có những phân mục nào trong mảng sản phẩm giặt?
+    - Các danh mục sản phẩm giặt của P&G được phân chia ra sao?
+    - P&G cung cấp những loại sản phẩm giặt nào trên thị trường?
+    - Thương hiệu P&G có những nhóm sản phẩm giặt nào?
+    - P&G phân khúc thị trường sản phẩm giặt theo những tiêu chí nào?
+    - Các loại sản phẩm giặt chính của P&G gồm những phân khúc gì?
 
 - intent: ask_ktsp_segments_with_image
   examples: |
@@ -186,6 +204,16 @@ nlu:
     - Đối thủ chính của từng phân khúc sản phẩm giặt là ai?
     - Ai là đối thủ của P&G ở các phân khúc giặt?
     - Lĩnh vực giặt của P&G cạnh tranh với thương hiệu nào?
+    - Mỗi phân khúc sản phẩm giặt có những đối thủ nào nổi bật?
+    - Trong từng nhóm sản phẩm giặt, ai là các đối thủ cạnh tranh chính?
+    - Các thương hiệu cạnh tranh chủ yếu ở mỗi phân khúc giặt là gì?
+    - Ai là đối thủ lớn nhất trong mỗi phân khúc sản phẩm giặt?
+    - Đối thủ cạnh tranh chính của từng loại sản phẩm giặt gồm những ai?
+    - Ở mỗi phân khúc giặt, những cái tên cạnh tranh hàng đầu là gì?
+    - Những thương hiệu nào cạnh tranh mạnh ở từng phân khúc sản phẩm giặt?
+    - Phân khúc sản phẩm giặt nào có đối thủ nào và đó là những ai?
+    - Trong phân khúc bột giặt, nước giặt, nước xả… đối thủ chủ chốt là ai?
+    - Ai đang cạnh tranh trực tiếp với P&G ở mỗi mảng sản phẩm giặt?
 
 - intent: ask_suitable_customer_for_ariel
   examples: |
